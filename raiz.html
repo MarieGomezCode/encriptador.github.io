@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>encriptar</title>
+    <link rel="icon" href="img/pen.png">
+    <link rel="stylesheet" href="estilo.css"> 
+    
+</head>
+<body>
+    <h1>AMEG</h1>
+    <div class="container" >
+            
+        <h2>Encriptador de texto</h2>
+        <div>
+            <textarea id="entradaTexto" cols="30" rows="10" placeholder="Escriba su texto aqui" ></textarea>
+            <h4><img src="img/Aviso.png" width="12px"  height="13px" >Solo letras minusculas y sin acentos </h4>
+            <button onclick="Encriptar()" >Encriptar</button>
+            <button onclick="Desencriptar()">Desencriptar</button>
+        </div>
+        <div>
+            <textarea id="salidaTexto" cols="30" rows="10" placeholder=" Encripte o desencripte aqui" ></textarea>
+            <button onclick="copyText()" >Copiar</button>
+            <!--Logica de que si no parece nada en el texto mostar imagen y texto    -->
+        </div>
+    </div>
+    <div class="hacker-background">
+        <div id="numbers"></div>
+    </div>
+    <script src="script.js" type="text/javascript"> </script>
+</body>
+</html>

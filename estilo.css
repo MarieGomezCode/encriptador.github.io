@@ -1,0 +1,49 @@
+
+
+*{
+    padding: 5px;
+    
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    color: aliceblue;
+    
+}
+
+h1{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: aliceblue;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    background-color: #000;
+}
+
+.hacker-background {
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#numbers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-family: monospace;
+    color: #0f0;
+    font-size: 16px;
+    pointer-events: none;
+}
